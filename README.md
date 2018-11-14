@@ -50,3 +50,6 @@ file /tmp/123/gen/scrooge/297e53822ddf/wilyns.thrift.src.main.thrift.thrift-scal
 /tmp/123/gen/scrooge/297e53822ddf/wilyns.thrift.src.main.thrift.thrift-scala/c8959dfdc97a/com/twitter/wilyns/thriftscala/LookupRequest.scala: directory
 ```
 
+### Observation
+
+Now, apply the patch in the repro, then repeat step 1 & 2. The issue does not appear.

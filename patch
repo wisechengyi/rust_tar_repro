@@ -1,0 +1,13 @@
+diff --git a/src/tar_api.rs b/src/tar_api.rs
+index 4645884..5338fc3 100644
+--- a/src/tar_api.rs
++++ b/src/tar_api.rs
+@@ -24,7 +24,7 @@ pub fn compress() -> Result<(), std::io::Error> {
+   let enc = GzEncoder::new(tar_gz, Compression::default());
+   let mut tar = tar::Builder::new(enc);
+   let mut f = File::open("test_data/hello.txt").unwrap();
+-  tar.append_file("gen/scrooge/297e53822ddf/wilyns.thrift.src.main.thrift.thrift-scala/c8959dfdc97a/com/twitter/wilyns/thriftscala/LookupRequest.scala",
++  tar.append_file("gen/scrooge/LookupRequest.scala",
+                  &mut f )?;
+   tar.finish();
+   Ok(())

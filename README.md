@@ -7,7 +7,7 @@ A file should show up after untarring, but instead, it appears as a directory.
 ```
 cargo run --bin rust-tar tar
 ```
-This will produce (it is hardcoded to tar up
+This will produce (it is hardcoded to tar up `test_data/hello.txt`)
 ```
 archive.tar.gz
 ```

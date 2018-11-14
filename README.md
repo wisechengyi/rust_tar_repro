@@ -18,7 +18,7 @@ Using the system tar to check the content:
 tar -tvf archive.tar.gz
 -rw-r--r-- 0/0              11 2018-11-14 08:35 gen/scrooge/297e53822ddf/wilyns.thrift.src.main.thrift.thrift-scala/c8959dfdc97a/com/twitter/wilyns/thriftscala/LookupRequest.scala
 ```
-looks great.
+looks great as it is a file, not a directory.
 
 #### Step 2
 Now, use `rust-tar` to untar it to `/tmp/123/`

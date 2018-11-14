@@ -3,6 +3,8 @@
 Problem:
 A file should show up after untarring, but instead, it appears as a directory.
 
+Repro'ed on both mac 10.14.1 and docker rust:1.30-stretch
+
 #### Step 1
 ```
 cargo run --bin rust-tar tar

@@ -32,6 +32,7 @@ rm -rf /tmp/123 && cargo run --bin rust-tar untar archive.tar.gz /tmp/123
 The listings show up:
 ```
 $ find /tmp/123
+oooo
 /tmp/123
 /tmp/123/gen
 /tmp/123/gen/scrooge
